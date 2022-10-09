@@ -89,11 +89,11 @@ class searchscreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Gap(appLayout.getHight(12)),
+                    Gap(appLayout.getHight(10)),
                     Text(
                       "20% Discount On The Early Booking Of this Flight. Don't Miss Out This Chance",
                       style: styles.headlinestyle2,
-                    )
+                    ),
                   ],
                 ),
               ),
@@ -103,7 +103,7 @@ class searchscreen extends StatelessWidget {
                     children: [
                       Container(
                         width: Size.width * 0.44,
-                        height: appLayout.getHight(200),
+                        height: appLayout.getHight(225),
                         decoration: BoxDecoration(
                           color: Color(0xff3ab8b8),
                           borderRadius:

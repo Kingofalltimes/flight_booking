@@ -150,7 +150,7 @@ class ProfileScreen extends StatelessWidget {
                         Text(
                           "You\'v Got A New Aword",
                           style: styles.headlinestyle2.copyWith(
-                              fontSize: 30,
+                              fontSize: 25,
                               fontWeight: FontWeight.bold,
                               color: Colors.white),
                         ),
