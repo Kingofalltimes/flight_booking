@@ -5,7 +5,7 @@ import 'package:flight_booking/widgets/ticket%20widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-import '../widgets/view_all.dart';
+import 'package:flight_booking/widgets/view_all.dart';
 
 class searchscreen extends StatelessWidget {
   const searchscreen({super.key});
@@ -59,7 +59,7 @@ class searchscreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                height: appLayout.getHight(425),
+                height: appLayout.getHight(450),
                 width: Size.width * .42,
                 padding: EdgeInsets.symmetric(
                     vertical: appLayout.getHight(15),

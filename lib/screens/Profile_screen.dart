@@ -215,7 +215,7 @@ class ProfileScreen extends StatelessWidget {
                 Gap(appLayout.getHight(20)),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
+                  children: const [
                     appColumeLayout(
                       firstText: "2304 77 ",
                       secondText: "Mailes",
@@ -231,14 +231,14 @@ class ProfileScreen extends StatelessWidget {
                   ],
                 ),
                 Gap(appLayout.getHight(13)),
-                appLayoutBilder(
+                const appLayoutBilder(
                   sections: 12,
                   iscolor: false,
                 ),
                 Gap(appLayout.getHight(13)),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
+                  children: const [
                     appColumeLayout(
                       firstText: "75 ",
                       secondText: "Mailes",
@@ -254,14 +254,14 @@ class ProfileScreen extends StatelessWidget {
                   ],
                 ),
                 Gap(appLayout.getHight(13)),
-                appLayoutBilder(
+                const appLayoutBilder(
                   sections: 12,
                   iscolor: false,
                 ),
                 Gap(appLayout.getHight(13)),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
+                  children: const [
                     appColumeLayout(
                       firstText: "98452 7 ",
                       secondText: "Mailes",
@@ -277,7 +277,7 @@ class ProfileScreen extends StatelessWidget {
                   ],
                 ),
                 Gap(appLayout.getHight(13)),
-                appLayoutBilder(
+                const appLayoutBilder(
                   sections: 12,
                   iscolor: false,
                 ),
