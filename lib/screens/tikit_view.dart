@@ -17,7 +17,7 @@ class Tikitview extends StatelessWidget {
     final Size = appLayout.getsize(context);
     return SizedBox(
       width: Size.width * 0.85,
-      height: appLayout.getHight(GetPlatform.isAndroid == true ? 178 : 169),
+      height: appLayout.getHight(GetPlatform.isAndroid == true ? 182 : 169),
       child: Container(
         margin: EdgeInsets.only(
           right: appLayout.getHight(16),

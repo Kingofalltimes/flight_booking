@@ -19,11 +19,11 @@ class AppTiketTabs extends StatelessWidget {
           children: [
             //airline tickets
             Container(
-              width: Size.width * .44,
+              width: Size.width * .45,
               padding: EdgeInsets.symmetric(vertical: appLayout.getHight(7)),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.horizontal(
-                    left: Radius.circular(appLayout.getHight(50)),
+                    left: Radius.circular(appLayout.getHight(45)),
                   ),
                   color: Colors.white),
               child: Center(
@@ -32,11 +32,11 @@ class AppTiketTabs extends StatelessWidget {
             ),
             // hotels
             Container(
-              width: Size.width * .44,
+              width: Size.width * .48,
               padding: EdgeInsets.symmetric(vertical: appLayout.getHight(7)),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.horizontal(
-                    right: Radius.circular(appLayout.getHight(50)),
+                    right: Radius.circular(appLayout.getHight(45)),
                   ),
                   color: Colors.transparent),
               child: Center(child: Text(second_tab)),

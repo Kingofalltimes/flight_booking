@@ -1,5 +1,3 @@
-import 'package:flutter/animation.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 Color primary = const Color(0xff687daf);

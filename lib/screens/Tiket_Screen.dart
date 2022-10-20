@@ -104,7 +104,11 @@ class tiketscreen extends StatelessWidget {
                         children: [
                           Row(
                             children: [
-                              Image.asset("assets/visa.jpg"),
+                              Image.asset(
+                                "assets/visa.jpg",
+                                // height: appLayout.getHight(80),
+                                width: appLayout.getWidth(100),
+                              ),
                               Text(
                                 "***7677",
                                 style: styles.headlinestyle3,

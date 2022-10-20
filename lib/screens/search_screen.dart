@@ -1,5 +1,3 @@
-// ignore_for_file: camel_case_types
-
 import 'package:flight_booking/utils/app_layout.dart';
 import 'package:flight_booking/utils/app_styles.dart';
 import 'package:flight_booking/widgets/icon_text_widget.dart';
@@ -73,7 +71,7 @@ class searchscreen extends StatelessWidget {
                 child: Column(
                   children: [
                     Container(
-                      height: appLayout.getHight(200),
+                      height: appLayout.getHight(170),
                       decoration: BoxDecoration(
                         borderRadius:
                             BorderRadius.circular(appLayout.getHight(20)),
@@ -91,7 +89,7 @@ class searchscreen extends StatelessWidget {
                     ),
                     Gap(appLayout.getHight(10)),
                     Text(
-                      "20% Discount On The Early Booking Of this Flight. Don't Miss Out This Chance",
+                      "20% Discount On The Early Booking Of this Flight. Don't Miss.",
                       style: styles.headlinestyle2,
                     ),
                   ],
@@ -120,7 +118,7 @@ class searchscreen extends StatelessWidget {
                               style: styles.headlinestyle2.copyWith(
                                   fontWeight: FontWeight.bold,
                                   color: Colors.white,
-                                  fontSize: 30),
+                                  fontSize: 20),
                             ),
                             Gap(appLayout.getHight(10)),
                             Text(
@@ -128,7 +126,7 @@ class searchscreen extends StatelessWidget {
                               style: styles.headlinestyle2.copyWith(
                                   fontWeight: FontWeight.w500,
                                   color: Colors.white,
-                                  fontSize: 20),
+                                  fontSize: 15),
                             ),
                           ],
                         ),
@@ -172,9 +170,9 @@ class searchscreen extends StatelessWidget {
                         Gap(appLayout.getHight(5)),
                         RichText(
                             text: const TextSpan(children: [
-                          TextSpan(text: '😍', style: TextStyle(fontSize: 38)),
-                          TextSpan(text: '❤️', style: TextStyle(fontSize: 50)),
-                          TextSpan(text: '😘', style: TextStyle(fontSize: 38)),
+                          TextSpan(text: '😍', style: TextStyle(fontSize: 28)),
+                          TextSpan(text: '❤️', style: TextStyle(fontSize: 40)),
+                          TextSpan(text: '😘', style: TextStyle(fontSize: 28)),
                         ])),
                       ],
                     ),

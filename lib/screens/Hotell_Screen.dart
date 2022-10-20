@@ -13,7 +13,7 @@ class Hotell_screen extends StatelessWidget {
     final Size = appLayout.getsize(context);
     return Container(
       width: Size.width * 0.6,
-      height: appLayout.getHight(350),
+      height: appLayout.getHight(360),
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 17),
       margin: const EdgeInsets.only(
         right: 17,

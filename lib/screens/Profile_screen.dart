@@ -150,14 +150,14 @@ class ProfileScreen extends StatelessWidget {
                         Text(
                           "You\'v Got A New Aword",
                           style: styles.headlinestyle2.copyWith(
-                              fontSize: 25,
+                              fontSize: 16,
                               fontWeight: FontWeight.bold,
                               color: Colors.white),
                         ),
                         Text(
                           "You Have 89 flights In A Year",
                           style: styles.headlinestyle2.copyWith(
-                              fontSize: 16,
+                              fontSize: 10,
                               fontWeight: FontWeight.w500,
                               color: Colors.white.withOpacity(0.9)),
                         ),
