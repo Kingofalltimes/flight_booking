@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flight_booking/screens/HomeScreen.dart';
 import 'package:flight_booking/screens/Profile_screen.dart';
 import 'package:flight_booking/screens/Tiket_Screen.dart';
+import 'package:flight_booking/screens/bookHotels.dart';
 import 'package:flight_booking/screens/search_screen.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +22,7 @@ class _bottombarState extends State<bottombar> {
     const searchscreen(),
     const tiketscreen(),
     const ProfileScreen()
+     
   ];
   void _onTimeTaped(int index) {
     setState(() {
